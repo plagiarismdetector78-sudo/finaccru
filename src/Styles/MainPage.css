@@ -1,0 +1,245 @@
+.mainPage__header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem 0;
+}
+
+.mainPage__header--left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mainPage__header--title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.mainPage__header--left>Input {
+    width: 50%;
+    height: 2.2rem;
+    background-color: #fff;
+}
+
+.mainPage__header--left .ant-input,
+.mainPage__header--left .ant-input:hover,
+.mainPage__header--left .ant-input:focus {
+    color: black;
+    border-color: #3463AE;
+}
+
+.mainPage__header--left .ant-input::placeholder {
+    color: #3463AE;
+    opacity: 0.5;
+}
+
+.mainPage__header--right {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.mainPage__header--btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    max-width: 10rem;
+    color: #3463AE;
+    height: 2.5rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 2px solid #3463AE;
+    overflow: hidden;
+}
+
+.mainPage__header--btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 2.5rem;
+    margin-left: 2rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: #3463AE;
+    overflow: hidden;
+}
+
+.table {
+    top: 0;
+    width: 100%;
+    min-width: 1250px;
+    padding: 3rem 3rem 0;
+}
+.table-scroll {
+    overflow-x: auto;
+}
+.table-container {
+    overflow-x: auto;
+}
+.table-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+.table-scroll::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px; 
+}
+.table-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+.table-scroll::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 4px; 
+}
+
+td.ant-table-cell {
+    padding: 1rem !important;
+    background-color: #fff !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.0125rem;
+    color: #11142D !important;
+}
+
+th.ant-table-cell {
+    font-size: 0.8rem !important;
+    font-weight: 300 !important;
+}
+
+.action__buttons {
+    display: flex;
+    justify-content: flex-end !important;
+    gap: 0.5rem;
+}
+
+.action__button>span>svg {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    color: var(--gray) !important;
+}
+
+.action__button {
+    cursor: pointer;
+}
+
+.action__button>img {
+    width: 1.2rem;
+}
+
+.ant-empty {
+    margin: 13rem 0 !important;
+}
+
+.ant-empty-image {
+    overflow: hidden !important;
+}
+
+.convert--modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.convert__modal__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.convert__modal__buttons>button {
+    display: flex;
+    padding: 0.675rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.convert__modal__buttons #confirm {
+    background: #3463AE;
+}
+
+.delete--modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete__modal__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.delete__modal__buttons>button {
+    display: flex;
+    padding: 0.675rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.delete__modal__buttons #confirm {
+    background: #3463AE;
+}
+
+.delete__modal__buttons #cancel {
+    background: #CB214A;
+}
+
+.ant-modal-mask {
+    background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.mainPage__list--delete--modal .ant-modal-content {
+    box-shadow: none !important;
+}
+
+.pdf__viewer-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.pdf__viewer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    max-width: 60rem;
+    padding: 0;
+    background-color: var(--white);
+    border: 2px solid var(--bg-gray);
+}

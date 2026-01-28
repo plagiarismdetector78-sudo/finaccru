@@ -1,0 +1,31 @@
+.layout__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.create__layout--main {
+    width: 70%;
+    max-width: 60rem;
+    margin-top: 4rem;
+    background-color: var(--white);
+    border: 1px solid #C9EFD8;
+}
+
+.create__layout--top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+
+.create__layout--head {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

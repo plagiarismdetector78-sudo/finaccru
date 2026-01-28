@@ -1,0 +1,24 @@
+.creditNote__adjustModal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+}
+
+.creditNote__adjustModal>h1 {
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0.8rem;
+}
+
+.creditNote__adjustModal-data {
+    margin-bottom: 0.5rem;
+    border: 1px solid #C9EFD8;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}

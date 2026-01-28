@@ -1,0 +1,12 @@
+.client__body {
+    background: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.clients__tabs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 4rem 4rem;   
+}

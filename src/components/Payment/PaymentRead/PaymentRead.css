@@ -1,0 +1,139 @@
+/* Read Payment Header */
+.read__payment__header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem 0;
+}
+
+.read__payment__header--left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.read__payment__header--title {
+    font-family: 'Work Sans', sans-serif;
+    color: #36BAA6;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+    padding-left: 0.75rem;
+}
+
+.read__payment__header--back-btn {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.read__payment__header--right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.read__payment__header--btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    width: max-content;
+    max-width: max-content;
+    height: 2.5rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #3463AE;
+    border: 2px solid #3463AE;
+    overflow: hidden;
+}
+
+.read__payment__header--btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+    width: 8rem;
+    max-width: 8rem;
+    height: 2.5rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #3463AE;
+    overflow: hidden;
+}
+
+.read__payment__header--btn2>a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Read Payment Container */
+.read__payment__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.read__payment--main {
+    width: 70%;
+    max-width: 60rem;
+    margin-top: 4rem;
+    background-color: var(--white);
+    border: 2px solid var(--bg-gray);
+}
+
+.read__payment--top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+
+.read__payment--head {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.read__payment__footer {
+    background-color: #C9EFD8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+
+.read__payment__footer--text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

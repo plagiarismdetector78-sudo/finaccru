@@ -1,0 +1,71 @@
+.taxInvoice__create--modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+}
+
+.taxInvoice__modal--btn1 {
+    border: 1px solid #3463AE;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.taxInvoice__modal--form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taxInvoice__modal--form>label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 2px dotted #3463AE;
+    cursor: pointer;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.create--modal-label {
+    padding: 3rem 6rem !important;
+}
+
+#create-tax-file-chosen {
+    margin: 0.5rem 0 0 0;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+.taxInvoice__modal--btn2{
+    border: none;
+    background-color: #fff;
+    color: #1677ff;
+    margin-top: 2rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.taxInvoice__modal--btn2:hover{
+    color: #69b1ff;
+}
+
+.table--pending__tasks {
+    color: red;
+    padding: 0 0 0.5rem 0.2rem;
+    cursor: pointer;
+}

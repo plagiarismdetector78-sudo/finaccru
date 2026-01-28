@@ -1,0 +1,116 @@
+.back__btn {
+    padding: 2rem 4rem 1rem;
+}
+
+.back__btn .read__header--back-btn {
+    width: 1rem !important;
+}
+
+.header__accountant {
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__accountant--padding1 {
+    padding: 2rem 4rem;
+}
+
+.header__accountant--padding2 {
+    padding: 0 4rem 0.5rem;
+}
+
+.header__accountant--left {
+    width: 40%;
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.header__accountant--title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__accountant--title>span {
+    color: #11142D;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header__accountant--left>Input {
+    height: 2.2rem;
+    width: 60%;
+    background-color: #fff;
+}
+
+.header__accountant--left .ant-input,
+.header__accountant--left .ant-input:hover,
+.header__accountant--left .ant-input:focus {
+    color: black;
+    border-color: #3463AE;
+    box-shadow: none;
+}
+
+.header__accountant--left .ant-input::placeholder {
+    color: #3463AE;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.header__accountant--right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__accountant--profile {
+    border-radius: 0.75rem;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    align-self: stretch;
+    padding: 0.75rem;
+    margin: 0 0 0.5rem 1rem;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.header__accountant--userinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 1rem;
+}
+
+.header__accountant--name {
+    color: #064061 !important;
+    font-size: 0.9rem !important;
+    font-weight: 600;
+}
+
+.header__accountant--email {
+    color: #AAA !important;
+    font-size: 0.8rem !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header__accountant--logout {
+    cursor: pointer;
+}
+
+.anticon-info-circle {
+    width: 1.2rem;
+    height: 1.3rem;
+    overflow: hidden;
+    cursor: pointer;
+}

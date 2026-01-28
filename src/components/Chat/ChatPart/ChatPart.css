@@ -1,0 +1,160 @@
+.chat-section {
+    width: 100%;
+    height: 100%;
+    height: 69vh;
+}
+
+.chatPart--header {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    background-color: var(--main-color);
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.chatPart--chats {
+    width: 100%;
+    min-height: 83%;
+    height: max-content;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.chatPart--chat {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1.2rem;
+    margin: 0.2rem 2rem;
+    overflow: hidden;
+    width: max-content;
+    max-width: 70%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.receivedChat {
+    background-color: #F2F2F2;
+    ;
+    color: black;
+}
+
+.sentChat {
+    background-color: var(--main-color);
+    color: #FFF;
+    align-self: flex-end;
+}
+
+.chatPart--chatMessage {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0 0.8rem 0;
+    word-break: break-all;
+    line-height: 1.3rem;
+}
+
+.chatPart--chatInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.chatPart--chatTime {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.receivedChat .chatPart--chatDocNumber {
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(90, 90, 252);
+}
+
+.sentChat .chatPart--chatDocNumber {
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(229, 255, 0);
+}
+
+.chatPart--input {
+    width: 100%;
+    height: 3rem;
+    min-height: 3rem !important;
+    max-height: 3rem !important;
+    bottom: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+
+.chatPart--input label {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0 0 0 0.8rem;
+}
+
+.chatPart--input input {
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #707070;
+}
+
+.chatPart--input button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.empty__chatBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.empty__chatBlock--text {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+
+.chatPart--document {
+    display: flex;
+    padding: 0.5rem 1.2rem;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    color: black;
+    gap: 1rem;
+}

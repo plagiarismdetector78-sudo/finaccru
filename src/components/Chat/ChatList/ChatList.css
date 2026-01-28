@@ -1,0 +1,52 @@
+.chatList--main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.chatList--item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.chatList--item__active {
+    background-color: white;
+}
+
+.chatList--item__left {
+    font-size: 1rem;
+}
+
+.chatList--item__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #009F8D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.chatList--item:hover {
+    background-color: white;
+}
+
+.chatList--item.active {
+    background-color: white;
+}

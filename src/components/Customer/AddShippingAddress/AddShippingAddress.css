@@ -1,0 +1,124 @@
+.add__shipping__modal .ant-modal-content {
+    padding: 3rem !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.add__shipping__modal .ant-modal-body {
+    width: 90%;
+}
+
+.add__shipping__modal--header {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.add__shipping__modal--form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.add__shipping__modal--input,
+.add__shipping__modal--select {
+    padding: 0.3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.add__shipping__modal--input>span,
+.add__shipping__modal--select>span {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.add__shipping__modal--input>input,
+.add__shipping__modal--select>input {
+    width: 100% !important;
+}
+
+.add__shipping__modal--select .ant-select {
+    width: 100% !important;
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+}
+
+.add__shipping__modal--select .ant-select .ant-select-selector {
+    border: none;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.ant-select-selection-item {
+    font-weight: 300 !important;
+}
+
+.add__shipping__modal--input>input {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    background: #FFF;
+    display: flex;
+    width: 80%;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-weight: 300;
+}
+
+.add__shipping__modal--input .ant-input-group-wrapper {
+    width: 100%;
+    border: none
+}
+
+.ant-input-wrapper .ant-input,
+.ant-input-group-wrapper .ant-input-wrapper {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    color: black;
+}
+
+.add__shipping__modal--checkbox {
+    display: flex;
+    gap: 0.5rem;
+    overflow: visible;
+    margin: 0rem 0 0 0;
+}
+
+.add__shipping__modal--btns {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add__shipping__modal--btns a {
+    display: flex;
+    width: 45%;
+    height: 3rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.add__shipping__modal--cancel-btn {
+    background-color: #CB214A;
+}
+
+.add__shipping__modal--submit-btn {
+    background: #3463AE;
+}
+
+.ant-modal-close-x .anticon-close {
+    position: relative;
+    left: 0;
+}

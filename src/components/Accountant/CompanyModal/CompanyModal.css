@@ -1,0 +1,81 @@
+.company__modal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.company__modal--header {
+    color: #36BAA6;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.company__modal--data {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+.company__modal--left {
+    width: 50%;
+}
+
+.company__modal--right {
+    width: 50%;
+}
+
+.company__modal--input {
+    padding: 0.3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.company__modal--input>span {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+
+.company__modal--links>span {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+
+.company__modal--links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.3rem 0;
+    gap: 1rem;
+}
+
+.company__modal--links>span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.company__modal--input>p {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    background: #FFF;
+    display: flex;
+    width: 80%;
+    padding: 0.3rem 1rem 0.3rem 0.5rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-weight: 300;
+    color: black;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.company__modal--input>input::placeholder {
+    color: black;
+}

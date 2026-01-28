@@ -1,0 +1,134 @@
+.layout__payment {
+    width: 100%;
+    display: flex;
+    padding: 0 4rem 3rem 4rem;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.layout__payment-options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.layout__payment-data {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+.layout__payment-table {
+    width: 50%;
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C9EFD8;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.layout__payments-table-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+    padding: 0.8rem 2rem;
+    border-bottom: 1px solid #C9EFD8;
+}
+
+.layout__payment-table--body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem 2rem 0;
+}
+
+.layout__payment-table--data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem;
+}
+
+.layout__payment-table--checkdata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout__payment-select .ant-select-selector {
+    width: 16rem !important;
+    max-width: 16rem !important;
+}
+
+.layout__payment-table-noData {
+    padding: 1.5rem 0;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__form--submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.layout__form--submit-btn>button {
+    background-color: #3463AE;
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0 1rem 2rem 0;
+}
+
+.layout__footer {
+    background-color: #C9EFD8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.layout__footer--text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout__items--sr {
+    justify-content: center;
+    margin-left: -0.2rem;
+    cursor: pointer;
+}
+
+.layout--cancel-icon>img {
+    width: 1rem;
+}
+
+@media only screen and (min-width: 1600px) {
+    .layout__items--sr {
+        margin-left: -1.2rem;
+    }
+}

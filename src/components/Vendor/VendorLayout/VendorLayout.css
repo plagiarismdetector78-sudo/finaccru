@@ -1,0 +1,189 @@
+.create__vendor--main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 6rem;
+}
+
+.create__vendor--header {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.create__vendor--form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.create__vendor--form-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.create__vendor--left {
+    width: 40%;
+}
+
+.create__vendor--right {
+    width: 60%;
+}
+
+.create__vendor--input,
+.create__vendor--select {
+    padding: 0.3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.create__vendor--input>span,
+.create__vendor--select>span {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+
+.create__vendor--select .ant-select {
+    width: 80% !important;
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+}
+
+.create__vendor--select .ant-select .ant-select-selector {
+    border: none;
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+.ant-select-selection-item {
+    font-weight: 300 !important;
+}
+
+.create__vendor--input>input {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    background: #FFF;
+    display: flex;
+    width: 80%;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-weight: 300;
+}
+
+.create__vendor--input .ant-input-group-wrapper {
+    width: 80%;
+    border: none
+}
+
+.create__vendor--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon,
+.create__vendor--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector {
+    border: none !important;
+}
+
+.ant-input-wrapper .ant-input,
+.ant-input-group-wrapper .ant-input-wrapper {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    color: black;
+}
+
+.create__vendor--form-shipping {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 2rem 0;
+}
+
+.create__vendor--form-header {
+    font-size: 1.1875rem;
+    font-weight: 600;
+}
+
+.create__vendor--checkbox {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 0.5rem;
+    overflow: visible;
+    margin: 1rem 0 0 0;
+}
+
+.create__vendor--shippingList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.create__vendor--shipping-address {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+}
+
+.create__vendor--shipping-address-single {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 5rem;
+}
+
+.create__vendor--shipping-address-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.create__vendor--shipping-address-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.shipping-input,
+.shipping-input>input,
+.shipping-input>span {
+    width: 100% !important;
+}
+
+.create__vendor--shipping-address-minus {
+    cursor: pointer;
+}
+
+.create__vendor--btns {
+    display: flex;
+    width: 80%;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create__vendor--btns a {
+    display: flex;
+    width: 45%;
+    height: 3rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.create__vendor--submit-btn {
+    background: #3463AE;
+    width: 8rem !important;
+}
+
+.create__vendor--select .ant-select .ant-select-selector {
+    overflow: hidden !important;
+}

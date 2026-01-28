@@ -1,0 +1,61 @@
+.accountant__table {
+    padding: 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.accountant__table--head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.accountant__table--heading {
+    width: max-content;
+    padding: 0.6rem 1rem;
+    border: 1px solid #4EB7F2;
+    color: #000;
+    background: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.accountant_chat {
+    color: white;
+    background: var(--main-color);
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.accountant__action__buttons {
+    display: flex;
+    justify-content: flex-end !important;
+    gap: 1rem;
+}
+
+.accountant__action__button>span>svg {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    color: var(--gray) !important;
+}
+
+.accountant__action__button {
+    cursor: pointer;
+}
+
+.accountant__action__button.small__button>span>svg {
+    width: 1.1rem !important;
+    height: 1.1rem !important;
+}

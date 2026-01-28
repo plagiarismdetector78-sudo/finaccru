@@ -1,0 +1,122 @@
+.expense__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4rem 2rem;
+}
+
+.create__expense--input,
+.create__expense--select {
+    padding: 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4rem;
+    width: 100%;
+}
+
+.create__expense--input>span,
+.create__expense--select>span {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 25%;
+}
+
+.create__expense--input>input {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    background: #FFF;
+    display: flex;
+    width: 60%;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-weight: 300;
+}
+
+.create__expense--input>textarea {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    background: #FFF;
+    display: flex;
+    width: 60%;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-weight: 300;
+}
+
+.create__expense--input>textarea:hover,
+.create__expense--input>textarea:focus,
+.create__expense--input>textarea:active {
+    box-shadow: none;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #D0DAE9;
+}
+
+.create__expense--select .ant-select {
+    width: 60% !important;
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+}
+
+.create__expense--select .ant-select .ant-select-selector {
+    border: none;
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+.ant-select-selection-item {
+    font-weight: 300 !important;
+}
+
+.create__expense--input .ant-input-group-wrapper {
+    width: 60%;
+    border: none
+}
+
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon:hover,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon:focus,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon:active,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector:hover ,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector:focus ,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector:active ,
+.create__expense--input .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector {
+    border: none !important;
+}
+
+.ant-input-wrapper .ant-input,
+.ant-input-group-wrapper .ant-input-wrapper {
+    border-radius: 0.25rem;
+    border: 1px solid #D0DAE9;
+    color: black;
+}
+
+.expense__form--submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 3rem;
+    margin-top: 2rem;
+}
+
+.expense__form--submit-btn>button {
+    background-color: #3463AE;
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0 1rem 2rem 0;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}

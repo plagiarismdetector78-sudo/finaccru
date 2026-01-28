@@ -1,0 +1,276 @@
+.layout__items {
+    background-color: #ECF1F3;
+    width: 100%;
+    padding: 2rem 0 0;
+}
+
+.layout__items--main {
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.layout__items--whole-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: 'first baseline';
+    padding: 0 1rem;
+}
+
+.required-field {
+    text-align: right;
+}
+
+.layout__items--sr,
+.layout__items--itemName,
+.layout__items--unitSelect,
+.layout__items--number-item,
+.layout__items--discount,
+.layout__items--tax,
+.layout__items--amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.layout__items--itemName .ant-input::placeholder,
+.layout__items--number-item .ant-input::placeholder,
+.layout__items--discount .ant-input-group-wrapper .ant-input-group .ant-input::placeholder,
+.layout__items--amount .ant-input::placeholder {
+    color: var(--gray);
+}
+
+.layout__items--itemName .ant-input,
+.layout__items--itemName .ant-input:hover,
+.layout__items--itemName .ant-input:focus,
+.layout__items--itemName .ant-input:active,
+.layout__items--number-item .ant-input:hover,
+.layout__items--number-item .ant-input:focus,
+.layout__items--number-item .ant-input:active,
+.layout__items--number-item .ant-input {
+    border-radius: 0.25rem;
+    border: 1px solid #36BAA6;
+    background: #FFF;
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.layout__items--number-item .ant-input {
+    text-align: right;
+}
+
+.layout__items--unitSelect .ant-select {
+    border-radius: 0.25rem !important;
+    border: 1px solid #36BAA6 !important;
+    height: 2.1rem !important;
+    overflow: hidden;
+}
+
+.layout__items--unitSelect .ant-select-selector .ant-select-selection-item {
+    background: #FFF;
+    color: black !important;
+    font-size: 0.75rem !important;
+    font-weight: 400 !important;
+    overflow: hidden;
+}
+
+.layout__items--discount .ant-input-group-wrapper:active,
+.layout__items--discount .ant-input-group-wrapper:focus,
+.layout__items--discount .ant-input-group-wrapper:hover,
+.layout__items--discount .ant-input-group-wrapper {
+    box-shadow: none;
+    border-radius: 0.25rem !important;
+    border: 1px solid #36BAA6 !important;
+    height: 2.1rem !important;
+    overflow: hidden;
+}
+
+.layout__items--discount .ant-input-group-wrapper .ant-input-group {
+    border: none !important;
+}
+
+.layout__items--discount .ant-input-group-wrapper .ant-input-group .ant-input-group-addon .ant-select .ant-select-selector {
+    padding-left: 0.5rem !important;
+}
+
+.layout__items--discount .ant-input-group-wrapper .ant-input-group .ant-input-group-addon .ant-select .ant-select-arrow {
+    margin-right: -0.5rem;
+}
+
+.layout__items--discount .ant-input-group-wrapper .ant-input-group .ant-input {
+    background: #FFF;
+    color: black !important;
+    font-size: 0.75rem !important;
+    font-weight: 400 !important;
+    height: 2.1rem !important;
+    text-align: right;
+}
+
+.layout__items--tax {
+    width: 12rem;
+}
+
+.layout__items--tax .ant-input-group-wrapper:hover,
+.layout__items--tax .ant-input-group-wrapper:active,
+.layout__items--tax .ant-input-group-wrapper:focus,
+.layout__items--tax .ant-input-group-wrapper {
+    width: 100%;
+    border-radius: 0.25rem !important;
+    border: 1px solid #36BAA6 !important;
+    height: 2.1rem !important;
+    overflow: hidden;
+    -webkit-border-radius: 0.25rem !important;
+    -moz-border-radius: 0.25rem !important;
+    -ms-border-radius: 0.25rem !important;
+    -o-border-radius: 0.25rem !important;
+}
+
+.layout__items--tax .ant-input-group-wrapper .ant-input-group {
+    border: none !important;
+    width: 100%;
+    display: flex;
+}
+
+.layout__items--tax .ant-input-group-wrapper .ant-input-group .ant-input {
+    background: #FFF;
+    color: black !important;
+    font-size: 0.75rem !important;
+    font-weight: 400 !important;
+    height: 2.1rem !important;
+    text-align: right;
+}
+
+.layout__items--tax .tax__select--standard .ant-input-group .ant-input {
+    width: 70%;
+}
+
+.layout__items--tax .tax__select--non-standard .ant-input-group .ant-input {
+    width: 20%;
+}
+
+.layout__items--tax .tax__select--standard .ant-input-group .ant-input-group-addon {
+    width: 30%;
+}
+
+.layout__items--tax .tax__select--non-standard .ant-input-group .ant-input-group-addon {
+    width: 80%;
+}
+
+.layout__items--tax .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon {
+    padding: 0 !important;
+}
+
+.layout__items--tax .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select {
+    margin: 0 !important;
+}
+
+.layout__items--tax .ant-input-group-wrapper .ant-input-wrapper .ant-input-group-addon .ant-select .ant-select-selector {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    width: 10rem;
+}
+
+/* .layout__items--tax .tax__select--standard .ant-input-group .ant-input-group-addon .ant-select .ant-select-arrow {
+    padding-right: 5.5rem;
+} */
+
+.layout__items--tax .tax__select--non-standard .ant-input-group .ant-input-group-addon .ant-select .ant-select-arrow {
+    padding-right: 0.5rem;
+}
+
+.layout__items--amount .ant-input {
+    font-size: 0.75rem !important;
+    border-radius: 0.25rem !important;
+    border: 1px solid #36BAA6 !important;
+    height: 2.1rem !important;
+    text-align: right;
+}
+
+.layout__items--amount .ant-input[disabled] {
+    background-color: #fff;
+    cursor: auto;
+    color: black;
+}
+
+.layout__items--description {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.add--description-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add--description-btn>button,
+.add--item-btn>button {
+    background-color: #36BAA6;
+    border: none;
+    width: 2.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+}
+
+.add--description-btn>span,
+.add--item-btn>span {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+.remove--description-btn {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.remove--description-btn>img {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    margin: 0.5rem 0.5rem 0 0;
+}
+
+.desc__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.desc__box>span {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.desc__box>input {
+    border: none;
+    border-bottom: 1px dotted black;
+    background-color: transparent;
+    margin-top: 0.5rem;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    width: 40%;
+}
+
+.add--item-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 2rem;
+}

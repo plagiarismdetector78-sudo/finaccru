@@ -1,0 +1,211 @@
+.layout__form--part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout__form--part1-head {
+    width: 100%;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout__form--head-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.layout__form--head-info1>h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.layout__form--head-info1>span {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.layout__form--head-info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout__form--head-info2-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0;
+}
+
+.layout__form--head-info2-data>span {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.layout__form--head-info2-data>input {
+    max-width: 9rem;
+    width: 9rem;
+    border: none;
+    text-align: left !important;
+    margin-left: 2rem;
+    color: var(--main-color);
+    border: 1px dotted var(--main-color);
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.layout__form--part2-head {
+    width: 100%;
+    padding: 1rem 4rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.layout__form--part2-head-customer {
+    width: 40%;
+}
+
+.layout__form--part2-head-customer>h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.layout__form--customer-data {
+    overflow: visible !important;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.layout__form--customer-data-info {
+    overflow: visible !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.layout__form--customer-data span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.layout__for--anticon-close {
+    width: 0.7rem;
+    color: #36BAA6;
+    cursor: pointer;
+}
+
+.layout__form--part3-head {
+    width: 100%;
+    padding: 1rem 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.4rem;
+}
+
+.layout__form--part3-head>h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.layout__form--part3-head>span {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.layout__form--part2-head-customer.second-select {
+    width: 60%;
+}
+
+.layout__form--part2-head-customer .ant-select {
+    margin-top: 0.5rem;
+    width: 18rem !important;
+}
+
+.layout__form--part2-head-customer .ant-select .ant-select-selector {
+    width: 100% !important;
+    max-width: 18rem !important;
+    border-radius: 0.25rem !important;
+    border: 1px solid #C9EFD8 !important;
+    -webkit-border-radius: 0.25rem !important;
+    -moz-border-radius: 0.25rem !important;
+    -ms-border-radius: 0.25rem !important;
+    -o-border-radius: 0.25rem !important;
+}
+
+.layout__form--currency {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0;
+    gap: 1rem;
+}
+
+.layout__form--currency-conversion {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.layout__form--currency-conversion>input {
+    border: none;
+    border-bottom: 1px solid #C9EFD8;
+    width: 4rem;
+    text-align: center;
+}
+
+.layout__form--part4-head {
+    width: 100%;
+    padding: 0.8rem 4rem 2rem 4rem;
+}
+
+.layout__form--part4-head>h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.layout__form--part4-head>textarea {
+    margin: 0.5rem 0;
+    padding-top: 0.3rem;
+    border-radius: 0.25rem;
+    border: 1px solid #C9EFD8;
+    background: #FFF;
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.layout__form--part4-head>textarea:hover,
+.layout__form--part4-head>textarea:focus,
+.layout__form--part4-head>textarea:active {
+    box-shadow: none;
+    margin: 0.5rem 0;
+    border-radius: 0.25rem;
+    border: 1px solid #C9EFD8;
+    background: #FFF;
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.layout__form--part4-head>textarea::placeholder {
+    color: var(--gray);
+}
+
+.ant-select-selector {
+    width: 8rem;
+    padding: 0 1rem !important;
+    max-width: 15rem;
+    text-align: 'center';
+    border-color: #C9EFD8 !important;
+    border-radius: 0.25rem !important;
+}

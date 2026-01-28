@@ -1,0 +1,50 @@
+.custom-pagination .ant-pagination {
+    overflow: visible; /* Allow pagination to be visible */
+  }
+  
+  .custom-pagination .ant-pagination-item,
+  .custom-pagination .ant-pagination-prev,
+  .custom-pagination .ant-pagination-next {
+    min-width: 32px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .custom-pagination .ant-pagination-prev,
+  .custom-pagination .ant-pagination-next {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-pagination .ant-pagination-prev button,
+  .custom-pagination .ant-pagination-next button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0;
+    background: transparent;
+  }
+  
+  .custom-pagination .ant-pagination-item-active {
+    border-color: #1890ff;
+    font-weight: 500;
+  }
+  
+  /* Ensure content doesn't overflow */
+  .custom-pagination .ant-pagination-item-link-icon,
+  .custom-pagination .ant-pagination-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
